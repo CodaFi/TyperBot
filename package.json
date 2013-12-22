@@ -1,0 +1,25 @@
+{
+  "name": "TyperBot",
+  "version": "0.0.1",
+  "description": "The Twitter gateway to Hoogle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodaFi/TyperBot"
+  },
+  "scripts": {
+    "start": "node app/server.js"
+  },
+  "keywords": [
+    "hoogle"
+  ],
+  "author": "Robert Widmann",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.7",
+    "nconf": "~0.6.9",
+    "ntwitter": "~0.5.0",
+    "node-restclient": "0.0.1",
+    "path": "~0.4.9",
+    "html-entities": "~1.0.10"
+  }
+}
